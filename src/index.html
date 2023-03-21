@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="upperMenu">
+        <img src="images/hamburger.png" alt="hamburger" id="hamburger" />
+        <a href="#">
+          <img src="images/logo.png" alt="logo" id="logo" />
+        </a>
+
+        <div id="search">
+          <input
+            type="text"
+            placeholder="Search"
+            class="closed"
+            id="searchField"
+          />
+          <label for="searchField">
+            <img src="images/searchIcon.png" alt="searchIcon" />
+          </label>
+        </div>
+      </div>
+      <hr />
+
+      <!-- ! Mobile Left Sidebar -->
+      <div id="leftSidebar" class="closed">
+        <div id="sidebarOverlay"></div>
+        <div id="leftSidebarWrapper">
+          <div id="leftUpperMenu">
+            <img src="images/logo.png" alt="logo" id="logo" />
+            <img src="images/x.png" alt="logo" id="sidebarCloseIcon" />
+          </div>
+          <hr />
+          <ul id="leftLowerMenu">
+            <li class="dropdown">
+              <h4>Demos</h4>
+              <ul class="dropdownContent closed">
+                <li>
+                  <a href="#"> Post Header </a>
+                </li>
+                <li>
+                  <a href="#"> Post Layout </a>
+                </li>
+                <li>
+                  <a href="#"> Share Buttons </a>
+                </li>
+                <li>
+                  <a href="#"> Gallery Post </a>
+                </li>
+                <li>
+                  <a href="#"> Video Post </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <h4>Post</h4>
+              <ul class="dropdownContent closed">
+                <li>
+                  <a href="#"> Post Header </a>
+                </li>
+                <li>
+                  <a href="#"> Post Layout </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <h4>Features</h4>
+              <ul class="dropdownContent closed">
+                <li>
+                  <a href="#"> Post Header </a>
+                </li>
+                <li>
+                  <a href="#"> Post Layout </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <h4>Categories</h4>
+              <ul class="dropdownContent closed">
+                <li>
+                  <a href="#"> Post Header </a>
+                </li>
+                <li>
+                  <a href="#"> Post Layout </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <h4>Shop</h4>
+              <ul class="dropdownContent closed">
+                <li>
+                  <a href="#"> Post Header </a>
+                </li>
+                <li>
+                  <a href="#"> Post Layout </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Buy Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ! Mobile Left Sidebar -->
+    </header>
+    <ul id="lowerMenu">
+      <li class="dropdown">
+        <h4>Demos</h4>
+        <ul class="dropdownContent">
+          <li>
+            <a href="#"> Post Header </a>
+          </li>
+          <li>
+            <a href="#"> Post Layout </a>
+          </li>
+          <li>
+            <a href="#"> Share Buttons </a>
+          </li>
+          <li>
+            <a href="#"> Gallery Post </a>
+          </li>
+          <li>
+            <a href="#"> Video Post </a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <h4>Post</h4>
+        <ul class="dropdownContent">
+          <li>
+            <a href="#"> Post Header </a>
+          </li>
+          <li>
+            <a href="#"> Post Layout </a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <h4>Features</h4>
+        <ul class="dropdownContent">
+          <li>
+            <a href="#"> Post Header </a>
+          </li>
+          <li>
+            <a href="#"> Post Layout </a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <h4>Categories</h4>
+        <ul class="dropdownContent">
+          <li>
+            <a href="#"> Post Header </a>
+          </li>
+          <li>
+            <a href="#"> Post Layout </a>
+          </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <h4>Shop</h4>
+        <ul class="dropdownContent">
+          <li>
+            <a href="#"> Post Header </a>
+          </li>
+          <li>
+            <a href="#"> Post Layout </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Buy Now</a>
+      </li>
+    </ul>
+    <section id="posts">
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage1_2x.png 2x,
+            ./images/posts/postImage1_3x.png 3x
+          "
+          src="./images/posts/postImage1_1x.png"
+        />
+        <span class="category">Lifestyle</span>
+        <h2 class="title">Eat Right For Your Exercise Regime</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage2_2x.png 2x,
+            ./images/posts/postImage2_3x.png 3x
+          "
+          src="./images/posts/postImage2_1x.png"
+        />
+        <span class="category">Lifestyle</span>
+        <h2 class="title">The Look: Perfect Balance</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage3_2x.png 2x,
+            ./images/posts/postImage3_3x.png 3x
+          "
+          src="./images/posts/postImage3_1x.png"
+        />
+        <span class="category">Style</span>
+        <h2 class="title">Fun Things to Do in Rome</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage4_2x.png 2x,
+            ./images/posts/postImage4_3x.png 3x
+          "
+          src="./images/posts/postImage4_1x.png"
+        />
+        <span class="category">Style</span>
+        <h2 class="title">
+          24 Colorful Ceilings That Add Unexpected Contrast to Any Room
+        </h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage5_2x.png 2x,
+            ./images/posts/postImage5_3x.png 3x
+          "
+          src="./images/posts/postImage5_1x.png"
+        />
+        <span class="category">Lifestyle</span>
+        <h2 class="title">9 New Songs to Heat Up Your Fall Playlist</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage6_2x.png 2x,
+            ./images/posts/postImage6_3x.png 3x
+          "
+          src="./images/posts/postImage6_1x.png"
+        />
+        <span class="category">Events</span>
+        <h2 class="title">What You Need on Your Bedside Table</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage7_2x.png 2x,
+            ./images/posts/postImage7_3x.png 3x
+          "
+          src="./images/posts/postImage7_1x.png"
+        />
+        <span class="category">Travel</span>
+        <h2 class="title">When Two Wheels Are Better Than Four</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage8_2x.png 2x,
+            ./images/posts/postImage8_3x.png 3x
+          "
+          src="./images/posts/postImage8_1x.png"
+        />
+        <span class="category">Travel</span>
+        <h2 class="title">
+          26 Living Room Ideas from the Homes of Top Designers
+        </h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+      <div class="post">
+        <img
+          srcset="
+            ./images/posts/postImage9_2x.png 2x,
+            ./images/posts/postImage9_3x.png 3x
+          "
+          src="./images/posts/postImage9_1x.png"
+        />
+        <span class="category">Music</span>
+        <h2 class="title">What Makes Your City’s Style Unique</h2>
+        <div class="postInfo">
+          <h5>Niek Bove</h5>
+          <span>&#x2022; April 8, 2018</span>
+          <span>&#x2022; 3K Views</span>
+        </div>
+        <p class="postArticle">
+          Structured gripped tape invisible moulded cups for sauppor firm hold
+          strong powermesh front liner sport detail. Warmth comfort hangs
+          loosely from the body large pocket at the front full button…
+        </p>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

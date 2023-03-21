@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: #e9e9e9;
+}
+
+body {
+  color: $font-color;
+  font-family: $font-family;
+}
+
+hr {
+  border-top: 1px solid #e9e9e9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
