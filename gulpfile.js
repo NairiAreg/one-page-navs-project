@@ -8,8 +8,19 @@ const css = () =>
     .pipe(sass().on("error", sass.logError))
     .pipe(dest("./src/css/"));
 const watchScss = () => watch("./src/css/*.scss", css);
+const gulpDist = (done) => {
+  src([
+    "src/*",
+    "src/**/*.js",
+    "src/**/*.png",
+    "src/**/**/*.png",
+    "src/**/*.css",
+    "gulpfile.js",
+    "package.json",
+  ]).pipe(dest("dist"));
+  done();
+};
 const gulpZip = (done) => {
-  css();
   src([
     "src/*",
     "src/**/*.js",
@@ -38,4 +49,4 @@ exports.css = css;
 exports.watchScss = watchScss;
 exports.gulpServer = gulpServer;
 exports.gulpZip = gulpZip;
-exports.build = series(css, gulpZip);
+exports.build = series(css, gulpZip, gulpDist);
